@@ -581,7 +581,7 @@ int main()
 		type: 'IMAGEBIG',
 		data: 'Tinand cont de faptul ca la deplasament (offset) 0x44 in analiza traficului SNMP – Simple Network Management Protocol (pentru gestionarea nodurilor din cadrul sistemului distribuit) este identificatorul de obiect (OID) si stiind ca in ASN.1 DER tag-ul pentru definirea OID-urilor (Object Identifier) este 0x06, ce OID este monitorizat?',
 		imagePath: `wireshark.png`,
-        answers: ['d'],
+        answers: ['a'],
 		questions: {
 			a: '1.3.6.1.2.1.1.3.5.0',
 			b: 'Niciun raspuns',

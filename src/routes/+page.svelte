@@ -32,7 +32,7 @@
 	}
 
 	function onStartQuiz() {
-		for (let i = 1; i < totalQuestionsNum; i++) {
+		for (let i = 1; i <= totalQuestionsNum; i++) {
 			selectedQuestions.push(getRandomItem());
 		}
 
