@@ -5,6 +5,6 @@
 
 {#each questions as question, i}
 	<div class="container p-2">
-		<QuestionComponent index={i} {question} givenAnswears={question.answers} />
+		<QuestionComponent index={i+1} {question} givenAnswears={question.answers} />
 	</div>
 {/each}

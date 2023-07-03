@@ -13,7 +13,7 @@
 	}[] = [];
 
 	let correctQuestionsNum = 0;
-	let totalQuestionsNum = 20;
+	let totalQuestionsNum = 15;
 
 	let submited = false;
 
@@ -32,7 +32,7 @@
 	}
 
 	function onStartQuiz() {
-		for (let i = 0; i < totalQuestionsNum; i++) {
+		for (let i = 1; i < totalQuestionsNum; i++) {
 			selectedQuestions.push(getRandomItem());
 		}
 

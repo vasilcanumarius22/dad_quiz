@@ -3,7 +3,7 @@
 	import type { Question } from '../data/questions';
 	export let question: Question;
 
-	export let index: number = -1;
+	export let index: number = 1;
 	export let givenAnswears: string[] | undefined = undefined;
 
 	export let onNext: undefined | { (question: Question, selectedAnswers: string[]): void } =
@@ -17,6 +17,8 @@
 		if (onNext) onNext(question, answers);
 
 		answers = [];
+
+		index +=1;
 	}
 
 	$: questionsKeys = Object.keys(question.questions);
@@ -24,7 +26,7 @@
 
 <div class="container card p-2">
 	{#key question.data}
-		{#if index > -1}
+		{#if index >= 1}
 			{index}.
 		{/if}
 
