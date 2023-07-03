@@ -544,7 +544,7 @@ int main()
     }
 }
         `,
-        answers: ['b'],
+        answers: ['a'],
 		questions: {
 			a: 'Niciun raspuns din cele existente',
 			b: 'Programul in C compileaza cu GCC si ruleaza pe Linux si creaza un singur proces',
